@@ -1,0 +1,63 @@
+/*
+	Dette er en CSS fil laget av Julius Corneliussen
+	Dato opprettet: 2014.xx.xx
+	Dato:        Merknader:
+
+*/
+body     {Background-color:white;}
+
+/* Forside variabler (hovedside) */
+#wrap    {background:none; margin:20px auto; width:1024px;}
+
+#headbuttons {clear:both; float:middle; margin-left:auto; margin-right:auto; padding:0; width:1024px;}
+
+#footer {position:absolute; bottom:0; width:100%; height:60px;}
+ #footer  p {color:black; text-align:center;}
+ #footer  a {color:blue;}
+ #footer  a:hover {color:brown;}
+
+/* Her er variabler mot linker.html */
+#frankslinker   {font:83% tahoma,verdana,sans-serif;color: brown;}
+  #frankslinker  a {color:darkblue;} 
+  #frankslinker  a:hover {color:lightblue;}
+
+/* innstillinger til linkene - 5 rader */
+#row1 {background-color: white;float:left;height:90%;width:160px;color: brown;}
+  #row2 {background-color: white;float:left;height:25%;width:300px;color: brown;}
+  #row3 {background-color: white;float:left;height:25%;width:180px;color: brown;}
+  #row4 {background-color: white;float:left;height:25%;width:200px;color: brown;}
+  #row5 {background-color: white;float:left;height:25%;width:270px;color: brown;}
+    #head {color: brown;}
+
+/* innstillinger til venstremenyen */
+#rightmenu {
+    float: center;
+    text-align: center;
+    width: 100;
+}
+/* innstillinger til Toppen */
+#wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+/* innstillinger til venstremenyen+iframe */
+#wrapper2 {
+    width: 1024px;
+    margin: 0 auto;
+}
+/* Fargekoder bakgrunn topp og bunn */
+#gradhead {
+    height: 65px;
+    background: -webkit-linear-gradient(blue, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(blue, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(blue, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(blue, white); /* Standard syntax (must be last) */
+}
+#gradfoot {
+    height: 65px;
+    background: -webkit-linear-gradient(white, lightblue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, lightblue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, lightblue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, lightblue); /* Standard syntax (must be last) */
+}
+
